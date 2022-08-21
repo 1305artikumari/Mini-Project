@@ -1,0 +1,81 @@
+<!Document html>
+<html lang="en">
+    <head>
+        <title>Document</title>
+        <style>
+           #maindiv{
+                display:flex;
+                flex-direction: column;
+                padding: 20px;
+                margin: 20px;
+                grid-gap: 20px;
+                background-color: darkred;
+                border-radius: 5px;
+                border: 5px;
+            }
+            #maindiv > div{
+                display:-moz-grid;
+                padding: 20px;
+                margin: 20px;
+                grid-gap: 20px;
+                background-color:darkcyan;
+                border-radius: 5px;
+                text-align: center;
+                border: 5px;
+            }
+            body{
+                padding-top: 80px;
+            } 
+            h3{
+                font-size: 20px;
+                color:darkgreen;
+            }
+            
+            #Header{
+                position:absolute;
+                top:0px;
+                background-color:darkorange;
+                width: 99%;
+                height:70px;
+                text-align: center;
+                color:darkblue;
+                font-family:9i 'Gill sans', 'Gill sans MT', calibri, 'Trebuchet MS' ,
+                sans-serif;
+                font-size:50px;
+            }
+            #Footer{
+                position:bottom;
+                bottom:0px;
+                background-color:darkorange;
+                width: 100%;
+                height:100px;
+                text-align: center;
+                color:darkblue;
+                font-family:9i 'Gill sans', 'Gill sans MT', calibri, 'Trebuchet MS' ,
+                sans-serif;
+                font-size:50px;
+               
+            }
+            
+        </style>
+  </head>
+    <body>
+        <div id="maindiv">
+            
+            <div id="Taj Mahal">TajMahal<br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Taj_Mahal_2012.jpg/1920px-Taj_Mahal_2012.jpg"width="500px"height=300px></div><br><br>
+            <div id="Qutub Minar">Qutub Minar<br><img src="https://englishtribuneimages.blob.core.windows.net/gallary-content/2022/5/2022_5$largeimg_1801446346.jpg"width="500px"height=300px></div><br><br>
+            <div id="Red Fort">Red Fort<br><img src="https://static.india.com/wp-content/uploads/2022/08/Red-Fort.png"width="500px"height=300px></div><br><br>
+            <div id="Ajanta Caves">Ajanta Caves<br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Cave_26%2C_Ajanta.jpg/1280px-Cave_26%2C_Ajanta.jpg"width="500px"height=300px></div><br><br>
+            <div id="Lotus Temple">Lotus Temple,<br><img src="https://www.pandotrip.com/wp-content/uploads/2014/09/Lotus-Tmple-Photo-by-Arpan-Das-980x614.jpg"width="500px"height=300px></div><br><br>
+            <div id="Sun Temple"> Sun Temple<br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Konarka_Temple.jpg/1280px-Konarka_Temple.jpg"width="500px"height=300px></div><br>
+            <div id="Hawa mahal">Hawa mahal<br><img src="https://www.jaipurlove.com/wp-content/uploads/2018/03/jaipur-hawa-mahal-india.jpg"width="500px"height=300px></div><br><br>
+            <div id="Golden Temple">Golden Temple<br><img src="https://images.newindianexpress.com/uploads/user/imagelibrary/2020/9/10/w900X450/Golden_Temple_PTI.jpg?w=400&dpr=2.6"width="500px"height=300px></div><br><br>
+        </div>
+          
+        <h1 id ="Header">Historical places in INDIA</h1>
+        <h3>National Anthem of our Countary</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/R45lK9O7-0w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div id="Footer">Design And Developed By ARTI KUMARI</div>
+        
+    </body>
+</html>
